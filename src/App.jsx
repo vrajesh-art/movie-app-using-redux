@@ -5,11 +5,11 @@ import { getApiConfiguration, getGenres } from './store/homeSlice'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Explore from './pages/explore/Explore'
-import Home from './pages/home/home'
+import Home from './pages/home/Home'
 import PageNotFound from './pages/404/PageNotFound'
-import Details from './pages/details/details'
-import Header from './components/header/header'
-import SearchResult from './pages/searchResult/searchResult'
+import Details from './pages/details/Details'
+import Header from './components/header/Header'
+import SearchResult from './pages/searchResult/SearchResult'
 import Footer from './components/footer/Footer'
 // value joh bhi store huve hai unko use karne ke liye apan useselector ka use karte hai
 
