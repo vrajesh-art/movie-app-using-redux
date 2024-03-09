@@ -9,7 +9,7 @@ import { useLocation } from "react-router-dom";
 import dayjs from "dayjs";
 // dayjs is used for changing the format of the date received from the server
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import Img from "../lazyLoadImage/img";
+import Img from "../lazyLoadImage/Img";
 import Genres from "../genres/Genres";
 import PosterFallback from "../../assets/images/no-poster.png";
 import CircleRating from "../circleRating/CircleRating";

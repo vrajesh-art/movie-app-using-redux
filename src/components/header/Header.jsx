@@ -6,7 +6,7 @@ import { VscChromeClose } from 'react-icons/vsc'
 import { useNavigate, useLocation } from 'react-router-dom'
 
 import logo from '../../assets/images/movix-logo.svg'
-import ContentWrapper from '../contentWrapper/contentWrapper'
+import ContentWrapper from '../contentWrapper/ContentWrapper'
 const Header = () => {
     // here below we are creating the required hooks
     const [show, setShow] = useState("top");
