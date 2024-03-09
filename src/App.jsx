@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getApiConfiguration, getGenres } from './store/homeSlice'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Explore from './pages/explore/explore'
+import Explore from './pages/explore/Explore'
 import Home from './pages/home/home'
 import PageNotFound from './pages/404/PageNotFound'
 import Details from './pages/details/details'
